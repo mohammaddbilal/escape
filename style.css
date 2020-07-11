@@ -1,0 +1,439 @@
+/* fonts */
+@font-face {
+    font-family: Brandon Grotesque;
+    src: url(fonts/BrandonGrotesque-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Brandon Grotesque;
+    src: url(fonts/BrandonGrotesque-Light.woff);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Brandon Grotesque;
+
+    src: url(fonts/BrandonGrotesque-Medium.woff);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Brandon Grotesque;
+    src:url(fonts/BrandonGrotesque-Regular.woff)
+    font-weight: normal;
+    font-style: normal;
+}
+/* fonts */
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Brandon Grotesque;
+  }
+  /*header starts*/
+    /*menu bar starts*/
+  header{
+    background-image: url(images/background.png);
+    min-height: 520px;
+  }
+  .container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    /*border: 1px solid white;*/
+    overflow: hidden;
+  }
+  .logo{
+    width: 17%;
+    float: left;
+  }
+  .logo img{
+    width: 100%;
+  }
+  .menu{
+    width: 50%;
+    float: right;
+    margin-top: 8px;
+  }
+  .menu ul{
+    float: right;
+  }
+  .menu ul li{
+    margin-right: 35px;
+    float: left;
+    list-style: none;
+  }
+  .menu ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   transition: .2s;
+  }
+    .menu ul li a:hover{
+  background-color: #aaaaaaaa;
+  padding: .5px;
+
+  }
+
+    /*intro starts*/
+  .intro{
+    margin-top: 20%;
+    clear: both;
+    text-align: center;
+    /*border: 1px solid white;*/
+  }
+  .intro p{
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  .intro h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 25px;
+  }
+  .intro button{
+   font-size: 16px;
+   font-weight: 300;
+   color: #ffffff;
+   background-color: transparent;
+   padding: 8px 45px;
+   border: 1px solid white;
+  }
+   .intro button:hover{
+   border: 1px solid yellow;
+   border: inset;
+  }  
+   .intro button:focus{
+   outline: none;
+  }
+    /*intro ends*/  /**/
+    /*header ends*/
+    /*service starts*/
+    .services{
+    padding: 23px 0px 0px 0px;
+    }
+    .services_bgc{
+    background-color: #fafafa;
+    }
+    .container1{
+    width: 70%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+    } 
+    .webd {
+    overflow: hidden;
+    }
+    .Ibrad {
+    overflow: hidden;        
+    } 
+    .text {
+    width: 62%;
+    float: left;
+    }
+    .text h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    }
+    .blight{
+    font-weight: 300;
+    }
+    .bbold{
+    font-weight: bold;
+    }
+    .image {
+    /*border: 1px solid;*/
+    width: 26%;
+    height: 225px;
+    margin: 5% 5%;
+    float: left;
+    }  
+    .image img{
+    width: 85%
+    }
+    /*service ends*/
+    /*service details starts*/
+.s_detls {
+ min-height: 500px;
+ /*border: 1px solid;*/
+}
+.s_detl {
+    padding: 70px 0;
+    margin-right: 9%;
+    width: 45%;
+    float: left;
+    /*border: 1px solid;*/
+    overflow: hidden;
+}
+.s_detl:last-child{
+    margin-right: 0%;
+}
+.sicimg {
+    margin-right: 7%;
+    width: 21%;
+    float: left;
+    /*border: 1px solid;*/
+}
+.sicimg img{
+    width: 97%;
+}
+
+
+.stext {
+width: 70%;
+float: left;
+/*border: 1px solid;*/
+}
+.stext h3{
+font-weight: 500;
+font-size: 22px; 
+
+}
+.stext p{
+font-weight: normal;
+font-size: 16px;     
+}
+    /*service details ends*/
+  /*Clients starts*/
+.acbgc{   
+padding: 80px 0;
+background-color: #fafafa;
+}
+.ac_text {
+text-align: center;
+font-weight: 300;
+}
+.ac_text h2{
+font-size: 55px;
+margin: 0;
+}
+.ac_text p{
+font-size: 22px;
+font-weight: normal;
+margin-top: -14px;
+}
+.a_c_t_l {
+font-weight: 300;
+}
+
+.a_c_t_b {
+font-weight: bold;
+}
+
+.ac_review {
+padding-top: 70px;
+}
+
+.comments {
+overflow: hidden;
+/*border: 1px solid red;*/
+}
+/*talk bubble*/
+
+    #talkbubble {
+    margin-top: 32px;
+    margin-left: 165px;
+    width: 50%;
+    height: 80px;
+    background: #ffffff;
+    position: relative;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    padding: 25px 30px;
+    }
+    #talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 26px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid #ffffff;
+      border-bottom: 13px solid transparent;
+    }
+        #bubble {
+    margin-top: 32px;
+    margin-right: 165px;
+    width: 50%;
+    height: 80px;
+    background: #ffffff;
+    position: relative;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    padding: 25px 30px;
+    }
+    #bubble:before {
+      content: "";
+      position: absolute;
+      left: 100%;
+      top: 26px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-left: 26px solid #ffffff;
+      border-bottom: 13px solid transparent;
+    }
+/*talk bubble*/
+.ac_img {
+width: 23%;
+float: left;
+/*border: 1px solid red;*/
+}
+.ac_img img{
+width: 100%;
+}
+.ac_comments {
+width: 39%;
+float: left;
+/*border: 1px solid red;*/
+}
+.ac_comments p{
+font-size: 22px;
+}
+.img_container{
+width:40;
+margin: 5% 16%;
+}
+.brands .container1 img{
+ /*margin: 10% 10%;*/
+ padding: 0 2%;
+}
+.brands .container1 img:first-child{
+margin-bottom: 1%;
+}
+  /*Clients ends*/
+/*team starts*/
+/*title*/
+#team_bgc{
+padding-top: 70px;
+background-color: #111111;
+color: white;
+}
+/*team single starts*/
+.team_single {
+padding: 70px 0;
+background-color: #111111;
+color: white;
+min-height: 350px;
+}
+.t_single {
+margin-left: 2.3%;
+width: 30%;
+float: left;
+/*border: 1px solid red;*/
+}
+.t_single:nth-child(2){
+margin-left:7%;
+}
+.t_single:first-child {
+margin-left: 0;    
+}
+.t_c {
+margin-left: 4%;
+}
+.t_text{
+text-align: center;
+}
+.t_icn {
+margin-left: 69px;
+display: inline-block;
+overflow: hidden;
+}
+.t_icn ul li{
+float: left;
+list-style: none;
+}
+.t_icn ul li a{
+text-decoration: none;
+}
+#t_icnm{
+margin-left: 33%;
+}
+/*team single ends*/
+/*Footer  Start*/
+.contact {
+background-color: #7690c5;
+min-height: 540px;
+}
+.c_info {
+margin-right: 2%;
+width: 46%;
+float: left;
+overflow: hidden;
+/*border: 1px solid white;*/
+margin-bottom: 147px;
+}
+
+.c_intro {
+
+}
+.c_intro h2{
+font-size: 55px;
+color: #ffffff;
+
+}
+.c_m_left {
+margin-right: 20px;
+width: 46%;
+float: left;
+/*border: 1px solid yellow;*/
+}
+
+.c_icon {
+margin-right: 15px;
+float: left;
+}
+.c_ic_p{
+overflow: hidden;   
+}
+.c_p {
+float: left;
+}
+#c_pd{
+padding: 65px 0 40px 0;
+}
+.c_m_right {
+width: 46%;
+float: left;
+/*border: 1px solid yellow;*/
+}
+/*form*/
+.form {
+width: 46%;
+float: right;
+/*border: 1px solid white;*/
+}
+
+.f_name {
+width: 100%;
+}
+
+.f_mail {
+}
+
+.f_message {
+}
+.input_w{
+margin: 10px 0;
+width: 97%;
+border-radius: 5px;
+padding: 25px 0px 25px 
+}
+.input_w:focus{
+outline: none;
+}
+#input_wm{
+padding: 54px 0px 54px 5px;
+}
+footer{
+text-align: center;
+padding-top: 61px;
+clear: both;
+border-top:1px solid #ffffffff;
+}
+/*Footer End*/
